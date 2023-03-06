@@ -7,75 +7,60 @@ const projects = [
     tech: ["React", "Node.js", "Python"],
     links: [
       {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/ulinks",
+        label: "Website",
+        icon: "link",
+        url: "https://beta-testing-tools.t-o-s.io/",
       },
     ],
   },
   {
-    name: "UTM TA Application System",
+    name: "TOS LABO",
     description:
       "UTAP is the central platform for all MCS TA postings @ UTM enabling students and instructors to apply for postings and manage applications.",
-    pic: "/utap.png",
-    tech: ["React", "Node.js"],
+    pic: "/labo.png",
+    tech: ["React"],
     links: [
       {
         label: "Website",
         icon: "link",
-        url: "https://utap.utm.utoronto.ca/utap/",
+        url: "https://creatures-mint.t-o-s.io/",
       },
     ],
   },
   {
-    name: "PostureAI",
+    name: "USAH",
     description:
       "PostureAI is an AI powered posture improvement web app, used by 200 monthly active users, that helps you maintain healthy posture while working.",
     subtitle: "1st Place in Best Use of GCP",
-    pic: "/postureai.png",
+    pic: "/usah.png",
     tech: ["React", "TypeScript"],
     links: [
       {
         label: "Website",
         icon: "link",
         url: "https://postureai.tech/",
-      },
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/PostureAI",
-      },
-      {
-        label: "Demo",
-        icon: "youtube",
-        url: "https://www.youtube.com/watch?v=SqUmP6npKYM",
-      },
-      {
-        label: "Devpost",
-        icon: "devpost",
-        url: "https://devpost.com/software/placeholder-9gjdst",
-      },
+      }
     ],
   },
 ];
 
 export const extraProjects = [
   {
-    name: "SQL Automarker",
+    name: "Symposium",
     type: "Research",
     description:
-      "Microservices architecture enabling SQL automarking with admin panel",
-    tech: ["React", "Node.js", "MongoDB", "Docker"],
+      "A platform designed to digitize various asset types for the convenient management, exchange, and trading needs of investment funds",
+    tech: ["React", "Node.js", "PostgresSQL"],
     links: [
       {
         label: "Project",
         icon: "link",
-        url: "https://www.michaelliut.ca/projects.html",
+        url: "https://www.pcm-symphony.com/",
       },
     ],
   },
   {
-    name: "ResumeWords",
+    name: "MT5 Trader",
     type: "Personal",
     description:
       "A tool that identifies keywords in job postings using ML that will improve your chances of getting a job.",
@@ -84,26 +69,21 @@ export const extraProjects = [
       {
         label: "Website",
         icon: "link",
-        url: "https://resume-words.com/",
-      },
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/ShahmeerShahid/ResumeWords",
-      },
+        url: "https://mt5dev-trading.tdt.asia",
+      }
     ],
   },
   {
-    name: "AnonBot",
+    name: "ATS Trading System",
     type: "Personal",
     description: "Discord bot for anonymous messaging, with 2100 messages sent",
-    tech: ["Node.js"],
+    tech: ["React, Java, Odoo, Python"],
     links: [
       {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/white-van/WVAnonBot",
-      },
+        label: "Website",
+        icon: "link",
+        url: "https://mt5dev-trading.tdt.asia",
+      }
     ],
   },
   {
@@ -222,53 +202,7 @@ export const extraProjects = [
         url: "https://devpost.com/software/harmoney-ci42yp",
       },
     ],
-  },
-  {
-    name: "InsurApp",
-    type: "Hackathon",
-    description: "Micro insurance mobile app using image recognition",
-    tech: ["Android Studio", "Flask", "AWS"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/InsurApp",
-      },
-    ],
-  },
-  {
-    name: "VapeSafe",
-    type: "Hackathon",
-    description:
-      "Mobile + hardware solution allowing users to quit vaping, won 3rd Place",
-    tech: ["Android Studio", "Arduino"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/leviaviv28/VapeSafe-EngHack2019",
-      },
-      {
-        label: "Devpost",
-        icon: "devpost",
-        url: "https://devpost.com/software/vapesafe/",
-      },
-    ],
-  },
-  {
-    name: "ETH-Aion Atomic Swap",
-    type: "Hackathon",
-    description:
-      "Atomic swap protocol for ETH & Aion cryptocurrencies, earning Top 6",
-    tech: ["Java"],
-    links: [
-      {
-        label: "Github",
-        icon: "github",
-        url: "https://github.com/jcserv/AtomicSwap",
-      },
-    ],
-  },
+  }
 ];
 
 export default projects;

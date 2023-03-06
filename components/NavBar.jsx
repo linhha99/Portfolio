@@ -19,6 +19,7 @@ import React from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { animateScroll as scroll, Link as ScrollLink } from "react-scroll";
 import Sticky from "react-stickynode";
+import Typed from 'react-typed';
 
 import { colors } from "../theme";
 
@@ -42,17 +43,43 @@ const navBtns = [
 ];
 
 const Logo = () => {
-  const logo = useColorModeValue("/logo.png", "/logo-dark.png");
+  const secondary = useColorModeValue(
+    colors.secondary.light,
+    colors.secondary.dark
+  );
+
+  const logo = useColorModeValue("/logoremove.png", "/logoremove.png");
   return (
-    <Box m="2">
-      <img
-        alt=""
-        src={logo}
-        width="60"
-        height="60"
-        onClick={scroll.scrollToTop}
+    <>
+      <Box m="2">
+        <img
+          alt=""
+          src={logo}
+          width="100"
+          height="60"
+          onClick={scroll.scrollToTop}
+        />
+      </Box>
+
+      <Typed
+      style={{
+        fontSize: '1.5rem',
+        fontWeight: 600,
+        color: secondary
+      }}
+        strings={[
+          "",
+          "Welcome to my portfolio",
+          "I'm Tuan Linh"
+        ]}
+        typeSpeed={40}
+        backSpeed={40}
+        loop={true}
       />
-    </Box>
+      <br />
+
+      
+    </>
   );
 };
 

@@ -24,7 +24,7 @@ export default function Footer() {
   }, []);
   return (
     <Box as="footer" mt={12} height="100%" textAlign="center" className="app">
-      <Link href={GITHUB_URL} isExternal>
+      {/* <Link href={GITHUB_URL} isExternal>
         <Text fontSize="sm">
           Made with{" "}
           <span aria-label="heart" role="img">
@@ -36,7 +36,7 @@ export default function Footer() {
       <Stack direction="row" alignItems="center" justify="center">
         <GoRepoForked /> <Text size="xs">{forks}</Text>
         <GoStar /> <Text size="xs">{stars}</Text>
-      </Stack>
+      </Stack> */}
 
       <Text fontSize="sm" mt={2} onClick={scroll.scrollToTop}>
         <span role="img" aria-label="rocket">
@@ -48,6 +48,7 @@ export default function Footer() {
         </span>
       </Text>
       <LinkIconBar links={links} />
+      <Text mb={30}>© My Portfolio 2023 - by Tuan Linh</Text>
     </Box>
   );
 }

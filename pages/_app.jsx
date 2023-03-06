@@ -15,7 +15,7 @@ const SiteHead = ({ title }) => (
     <title>{title}</title>
     <meta name="title" content="Jarrod Servilla - Full Stack Developer" />
     <meta name="description" content="Jarrod Servilla - Portfolio" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/logoremove.png" />
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#252934" />
